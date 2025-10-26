@@ -2,7 +2,7 @@ from flask import Flask, request, render_template_string
 import openai
 
 # Replace this with your actual API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 app = Flask(__name__)
 
@@ -52,3 +52,4 @@ def home():
 if __name__ == "__main__":
     # Run on all network interfaces (so you can access from your phone)
     app.run(host='0.0.0.0', port=5000, debug=True, use_reloader=False)
+
